@@ -87,15 +87,16 @@ def decode_jwt():
     """
     Check user token and return non-secret data
     """
-    if not 'Authorization' in request.headers:
+    if 'Authorization' not in request.headers:
         abort(401)
     data = request.headers['Authorization']
     token = str.replace(str(data), 'Bearer ', '')
+    print(token)
     try:
+        print(JWT_SECRET)
         data = jwt.decode(token, JWT_SECRET, algorithms=['HS256'])
     except: # pylint: disable=bare-except
         abort(401)
-
 
     response = {'email': data['email'],
                 'exp': data['exp'],

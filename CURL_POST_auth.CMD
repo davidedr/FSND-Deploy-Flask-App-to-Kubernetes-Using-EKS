@@ -1,0 +1,9 @@
+REM @ECHO OFF
+CLS
+
+ECHO Usage: CURL_POST_question.CMD question answer category difficulty
+ECHO
+
+REM In windows CMD, use escape chars for "!
+curl http://localhost:5000/auth -v -X POST -H "Content-Type: application/json" -d "{\"email\":\"mail@example.com\", \"password\":\"secret\"}
+    
