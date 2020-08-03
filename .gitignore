@@ -18,6 +18,14 @@ docs/_build/
 __pycache__
 .env_file
 SET_JWT_SECRET.BAT
+github_api_token.txt
+eksctl create cluster_OUTPUT.txt
+new_user_credentials.csv
+new_user_credentials.xlsx
+new_user_credentials.csv.TXT
+new-user-1.png
+new-user-1_accessKeys.csv
+new-user-1_accessKeys.png
 
 # Coverage reports
 htmlcov/
