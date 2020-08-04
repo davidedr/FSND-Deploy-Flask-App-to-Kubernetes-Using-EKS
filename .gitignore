@@ -26,6 +26,7 @@ new_user_credentials.csv.TXT
 new-user-1.png
 new-user-1_accessKeys.csv
 new-user-1_accessKeys.png
+old_credentials/
 
 # Coverage reports
 htmlcov/
