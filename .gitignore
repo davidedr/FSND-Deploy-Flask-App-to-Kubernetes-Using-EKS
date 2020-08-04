@@ -16,7 +16,6 @@ _mailinglist
 .idea/
 docs/_build/
 __pycache__
-.env_file
 SET_JWT_SECRET.BAT
 github_api_token.txt
 eksctl create cluster_OUTPUT.txt
@@ -27,6 +26,7 @@ new-user-1.png
 new-user-1_accessKeys.csv
 new-user-1_accessKeys.png
 old_credentials/
+fnsd_deploy_flask_kubernetes_eks.code-workspace
 
 # Coverage reports
 htmlcov/
